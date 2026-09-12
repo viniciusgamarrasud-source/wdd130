@@ -1,12 +1,35 @@
+/* Navegação */
+nav {
+    background-color: #333;
+    padding: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    display: block;
+    text-decoration: none;
+}
+
+/* Títulos */
+h1 {
+    color: #1b4965;
+}
+
+/* Conteúdo Principal */
 main {
     max-width: 840px;
 }
 
 main img {
-    width: 300px;
+    width: 150px;
     height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Seção Lateral (Aside) */
 aside {
     width: 20rem;
     margin: 1rem;
@@ -17,16 +40,12 @@ aside {
     text-align: center;
 }
 
-main img {
-    width: 300px;
-    height: auto;
-}
-
 aside img {
     width: 200px;
     height: auto;
 }
 
+/* Parágrafos e Rodapé */
 p {
     padding: 0;
 }
