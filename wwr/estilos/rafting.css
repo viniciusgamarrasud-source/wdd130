@@ -95,3 +95,11 @@ footer {
     height: 40px;
     object-fit: contain;
 }
+
+nav a {
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+}
