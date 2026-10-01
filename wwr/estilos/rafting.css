@@ -182,3 +182,12 @@ figcaption {
     font-size: 0.9rem;
     font-weight: bold;
 }
+
+header,
+header *,
+header a,
+header li,
+header ul,
+header nav {
+    color: white !important;
+}
