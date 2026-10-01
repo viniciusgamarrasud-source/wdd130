@@ -33,8 +33,7 @@ footer {
 }
 
 main {
-    background-color: white;
-    padding: 10px;
+    background-color: #fffff padding: 10px;
 }
 
 .hero {
@@ -52,7 +51,9 @@ main {
     top: 20px;
     width: 100%;
     text-align: center;
-    color: var(--cor-destaque2);
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 10px;
     font-family: var(--fonte-titulo);
 }
 
