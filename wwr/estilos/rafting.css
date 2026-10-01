@@ -191,3 +191,8 @@ header ul,
 header nav {
     color: white !important;
 }
+
+header img {
+    background-color: white;
+    padding: 5px;
+}
