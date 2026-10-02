@@ -26,7 +26,6 @@ header {
     align-items: center;
     background-color: var(--cor-primaria);
     padding: 10px;
-    color: white;
 }
 
 main,
@@ -190,6 +189,11 @@ header li,
 header ul,
 header nav {
     color: white !important;
+}
+
+header img {
+    background-color: white;
+    padding: 5px;
 }
 
 header {
