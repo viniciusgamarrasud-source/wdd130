@@ -1,4 +1,5 @@
 :root {
+    --cor-primaria: #023102;
     --cor-secundaria: #f4a261;
     --cor-destaque1: #264653;
     --fonte-titulo: "Times New Roman", "Georgia", serif;
@@ -194,8 +195,4 @@ header nav {
 header img {
     background-color: white;
     padding: 5px;
-}
-
-header {
-    background-color: #023102;
 }
