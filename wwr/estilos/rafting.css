@@ -184,16 +184,8 @@ figcaption {
     font-weight: bold;
 }
 
-header,
-header *,
-header a,
-header li,
-header ul,
-header nav {
-    color: white !important;
-}
-
 header img {
     background-color: white;
+    color: #000000;
     padding: 5px;
 }
