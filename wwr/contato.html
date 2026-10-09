@@ -85,27 +85,63 @@
 
                 <fieldset>
 
-                    < <footer>
+                    <legend>Finalidade da Mensagem</legend>
 
+                    <label>
+                        <input type="radio" name="purpose" value="consulta" required>
+                        Consulta Geral
+                    </label>
 
-                        <p>
-                            © 2026 White Water Rafting | Vinícius Gamarra
-                        </p>
+                    <label>
+                        <input type="radio" name="purpose" value="reserva">
+                        Pergunta sobre Reserva
+                    </label>
 
-                        <nav class="socialmedia">
+                    <label>
+                        <input type="radio" name="purpose" value="sugestao">
+                        Sugestão de Site
+                    </label>
 
-                            <a href="https://facebook.com" target="_blank">
-                                <img src="imagens/facebook.jpg.png" alt="facebook">
-                            </a>
+                </fieldset>
 
-                            <a href="https://instagram.com" target="_blank">
-                                <img src="imagens/instagram.png.png" alt="istagram">
-                            </a>
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
 
-                            <a href="https://x.com" target="_blank">
-                                <img src="imagens/imagemx.png" alt="logo-x">
-                            </a>
+                <label class="newsletter">
+                    <input type="checkbox" name="newsletter">
+                    Quero receber a newsletter mensal
+                </label>
 
-                        </nav>
+                <button type="submit">Enviar Mensagem</button>
 
-                        </footer>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>© 2026 White Water Rafting | Vinícius Gamarra</p>
+
+        <nav class="socialmedia">
+
+            <a href="https://facebook.com" target="_blank">
+                <img src="imagens/facebook.jpg.png" alt="Facebook">
+            </a>
+
+            <a href="https://instagram.com" target="_blank">
+                <img src="imagens/instagram.png.png" alt="Instagram">
+            </a>
+
+            <a href="https://x.com" target="_blank">
+                <img src="imagens/imagemx.png" alt="X">
+            </a>
+
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>
