@@ -205,8 +205,10 @@ header img {
 }
 
 .company-info iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 300px;
     border: 0;
-    margin-top: 15px;
 }
 
 .employees {

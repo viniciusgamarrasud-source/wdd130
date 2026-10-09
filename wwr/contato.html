@@ -41,7 +41,7 @@
 
             <iframe
               src="https://maps.google.com/maps?q=Gravatai,RS,Brasil&t=&z=13&ie=UTF8&iwloc=&output=embed"
-              width="100%" height="300" loading="lazy">
+              width="800" height="300" loading="lazy">
             </iframe>
 
         </section>
@@ -87,18 +87,18 @@
 
                     <legend>Finalidade da Mensagem</legend>
 
-                    <label>
-                        <input type="radio" name="purpose" value="consulta" required>
+                    <label for="consulta">
+                        <input type="radio" id="consulta" name="purpose" value="consulta" required>
                         Consulta Geral
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="reserva">
+                    <label for="reserva">
+                        <input type="radio" id="reserva" name="purpose" value="reserva">
                         Pergunta sobre Reserva
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="sugestao">
+                    <label for="sugestao">
+                        <input type="radio" id="sugestao" name="purpose" value="sugestao">
                         Sugestão de Site
                     </label>
 
@@ -107,8 +107,8 @@
                 <label for="message">Mensagem</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
 
-                <label class="newsletter">
-                    <input type="checkbox" name="newsletter">
+                <label class="newsletter" for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
                     Quero receber a newsletter mensal
                 </label>
 
