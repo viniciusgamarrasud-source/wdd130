@@ -272,3 +272,138 @@ button {
 button:hover {
     background-color: var(--cor-destaque1);
 }
+
+/* ============================
+   HOME PAGE - INDEX
+============================ */
+
+.newsletter-home {
+    padding: 2rem;
+    text-align: center;
+}
+
+.newsletter-home form {
+    display: grid;
+    gap: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.newsletter-home input {
+    padding: 10px;
+}
+
+.cta-home {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f7f7f7;
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: var(--cor-primaria);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: var(--cor-destaque1);
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 2rem;
+}
+
+.home-grid article {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.home-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* ============================
+   PASSEIOS
+============================ */
+
+.trip-hero {
+    text-align: center;
+    padding: 40px;
+    background-color: #f7f7f7;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 2rem;
+}
+
+.trip-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: white;
+}
+
+.trip-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.trip-card h2 {
+    margin: 10px 0;
+}
+
+.trip-table {
+    padding: 2rem;
+}
+
+.trip-table h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: var(--cor-destaque1);
+    color: white;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 768px) {
+
+    .home-grid,
+    .trip-grid {
+        grid-template-columns: 1fr;
+    }
+
+    main,
+    footer {
+        width: 100%;
+    }
+
+}
